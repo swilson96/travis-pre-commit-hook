@@ -1,4 +1,9 @@
 #!/usr/bin/env ruby
 
 require 'travis_lint'
-puts TravisLint.validate()
+
+puts 'linting these files:'
+puts ARGV
+ARGV.each do | filename |
+  puts TravisLint.validate(filename)
+end
