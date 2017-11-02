@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'travis_lint'
+puts TravisLint.validate()
