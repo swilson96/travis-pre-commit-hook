@@ -5,5 +5,7 @@ require 'travis_lint'
 puts 'linting these files:'
 puts ARGV
 ARGV.each do | filename |
-  puts TravisLint.validate(filename)
+  if TravisLint.validate(filename)
+    exit 1
+  end
 end
