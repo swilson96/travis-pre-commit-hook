@@ -3,4 +3,4 @@
     description: This hook lints travis.yml files.
     entry: travis_lint
     language: ruby
-    types: [yaml]
+    files: \.travis\.y(a?)ml
