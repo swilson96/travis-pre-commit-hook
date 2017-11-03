@@ -1,3 +1,5 @@
+[DEPRECATED] Use [https://github.com/alphagov/verify-travis-pre-commit-hook](https://github.com/alphagov/verify-travis-pre-commit-hook) instead.
+
 # travis-pre-commit-hook
 
 A [pre-commit](http://pre-commit.com/) hook in the form of a rubygem. Not published to rubgems.org.
